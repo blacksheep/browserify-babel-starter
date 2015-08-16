@@ -1,0 +1,22 @@
+{
+  "name": "form",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ldong/blacksheep-data",
+  "authors": [
+    "Alan Dong <alan@blacksheep.ws>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "NONE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

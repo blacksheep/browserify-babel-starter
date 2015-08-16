@@ -1,0 +1,55 @@
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+#myform {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#myform fieldset {
+  border: 1px solid #bbb;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#myform label, #myform input, #myform select {
+  display: block;
+}
+
+#myform input, #myform select, #myform textarea {
+  margin-bottom: 20px;
+  padding: 6px;
+  width: 350px;
+}
+
+#terms {
+  float: left;
+  width: auto !important;
+}
+
+input[name="referrer"] {
+  float: left;
+  margin-right: 10px;
+  width: auto !important;
+  clear: left;
+}
+
+.lbl-referrer {
+  float: left;
+}
+
+h4 {
+  clear: left;
+}
+
+input:required:invalid, input:focus:invalid {
+  border: 1px solid red;
+}
+
+input:required:valid, input:focus:valid {
+  border: 1px solid green;
+}
+
